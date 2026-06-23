@@ -16,7 +16,7 @@ spec:
       - image: fstab/java-demo
         name: java-demo
         ports:
-        - containerPort: 8080
+        - containerPort: 8081
 ---
 kind: Service
 apiVersion: v1
@@ -28,4 +28,4 @@ spec:
   ports:
   - protocol: TCP
     port: 80
-    targetPort: 8080
+    targetPort: 8081
