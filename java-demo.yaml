@@ -13,7 +13,8 @@ spec:
         app: java-demo
     spec:
       containers:
-      - image: fstab/java-demo
+      - image: tragic23/java-demo
+        imagePullPolicy: Always
         name: java-demo
         ports:
         - containerPort: 8081
