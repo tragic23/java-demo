@@ -6,7 +6,7 @@ Java Demo Application for [Kubernetes](https://kubernetes.io/).
 Overview
 --------
 
-The demo runs on HTTP port 8080, and provides the current system environment variables formatted as an ASCII table:
+The demo runs on HTTP port 8081, and provides the current system environment variables formatted as an ASCII table:
 
 ![Screen Shot](screenshot.png)
 
@@ -18,7 +18,7 @@ Run
 A pre-built Docker image is available on [fstab/java-demo](https://hub.docker.com/r/fstab/java-demo/). Test locally:
 
 ```sh
-docker run -p8080:8080 --rm fstab/java-demo
+docker run -p8081:8081 --rm fstab/java-demo
 ```
 
 Deploy on Kubernetes
@@ -51,7 +51,7 @@ Test
 
 Test locally:
 
-View [http://localhost:8080](http://localhost:8080).
+View [http://localhost:8081](http://localhost:8081).
 
 Test on Kubernetes:
 
